@@ -1,0 +1,15 @@
+C:\c#New\hobby\obj\Debug\net6.0\hobby.csproj.AssemblyReference.cache
+C:\c#New\hobby\obj\Debug\net6.0\hobby.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#New\hobby\obj\Debug\net6.0\hobby.AssemblyInfoInputs.cache
+C:\c#New\hobby\obj\Debug\net6.0\hobby.AssemblyInfo.cs
+C:\c#New\hobby\obj\Debug\net6.0\hobby.csproj.CoreCompileInputs.cache
+C:\c#New\hobby\bin\Debug\net6.0\hobby.exe
+C:\c#New\hobby\bin\Debug\net6.0\hobby.deps.json
+C:\c#New\hobby\bin\Debug\net6.0\hobby.runtimeconfig.json
+C:\c#New\hobby\bin\Debug\net6.0\hobby.dll
+C:\c#New\hobby\bin\Debug\net6.0\hobby.pdb
+C:\c#New\hobby\obj\Debug\net6.0\hobby.dll
+C:\c#New\hobby\obj\Debug\net6.0\refint\hobby.dll
+C:\c#New\hobby\obj\Debug\net6.0\hobby.pdb
+C:\c#New\hobby\obj\Debug\net6.0\hobby.genruntimeconfig.cache
+C:\c#New\hobby\obj\Debug\net6.0\ref\hobby.dll
