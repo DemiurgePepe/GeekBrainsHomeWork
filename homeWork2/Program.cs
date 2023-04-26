@@ -54,18 +54,25 @@
 // 1 -> нет
 
 
-// int userInput(string message)
-// {
-//     System.Console.Write(message);
-//     string value = Console.ReadLine();
-//     int result = Convert.ToInt32(value);
-//     return result;
-// }
-// bool WeekEnd(int weekDay)
-// {
-//     if(weekDay == 6|| weekDay==7) return true;
-//     else return false;
-// }
-// int number = userInput("Input number of week: ");
-// if(WeekEnd(number)==true) Console.WriteLine("It's Weekend!!!");
-// else Console.WriteLine("It's time to work!!!");
+int userInput(string message)
+{
+    System.Console.Write(message);
+    string value = Console.ReadLine();
+    int result = Convert.ToInt32(value);
+    return result;
+}
+bool WeekEnd(int weekDay)
+{
+    if(weekDay == 6|| weekDay==7) return true;
+    else return false;
+}
+int number = userInput("Input number of week: ");
+bool CheckToinvalidNumber(int number)
+{
+    if(number<1||number>7) return false;
+    else return true;
+}
+if(CheckToinvalidNumber(number)== false) Console.WriteLine("Invalid number!!!");
+if(WeekEnd(number)==true) Console.WriteLine("It's Weekend!!!");
+if(WeekEnd(number)==false) Console.WriteLine("It's time to work!!!");
+
