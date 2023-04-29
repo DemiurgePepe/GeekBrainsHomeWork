@@ -5,4 +5,3 @@ while(count<2600)
 Directory.CreateDirectory($"{count}");
 count= count + 14;
 }
-123
