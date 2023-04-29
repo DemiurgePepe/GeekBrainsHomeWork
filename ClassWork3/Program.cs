@@ -1,11 +1,11 @@
 ﻿//Задание1.  Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
-int userInput(string message)
-{
-    System.Console.Write(message);
-    string value = Console.ReadLine();
-    int result = Convert.ToInt32(value);
-    return result;
-}
+// int userInput(string message)
+// {
+//     System.Console.Write(message);
+//     string value = Console.ReadLine();
+//     int result = Convert.ToInt32(value);
+//     return result;
+// }
 // int FindQuart(int x, int y)
 // {
 //     if(x>0&&y>0)    return 1;
