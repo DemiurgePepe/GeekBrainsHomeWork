@@ -25,35 +25,35 @@
 // [1,0,1,1,0,1,0,0]
 
 
-// int[] CreateRandomArray(int size, int minValue, int maxValue)
-// {
-//     int[] newArray = new int[size];
-//     for (int i = 0; i < size; i++)
-//     {
-//         newArray[i] = new Random().Next(minValue, maxValue + 1);
-//     }
-//     return newArray;
-// }
+int[] CreateRandomArray(int size, int minValue, int maxValue)
+{
+    int[] newArray = new int[size];
+    for (int i = 0; i < size; i++)
+    {
+        newArray[i] = new Random().Next(minValue, maxValue + 1);
+    }
+    return newArray;
+}
 
-// void PrintArray(int[] array)
-// {
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         Console.Write(array[i] + " ");
-//     }
-//     Console.WriteLine();
-// }
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
 
-// Console.WriteLine("Input array size ");
-// int size = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Input minimal value of element");
-// int minValue = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Input maximal value of element");
-// int maxVAlue = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input array size ");
+int size = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input minimal value of element");
+int minValue = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input maximal value of element");
+int maxVAlue = Convert.ToInt32(Console.ReadLine());
 
-// int[] myArray = CreateRandomArray(size, minValue, maxVAlue);
+int[] myArray = CreateRandomArray(size, minValue, maxVAlue);
 
-// PrintArray(myArray);
+PrintArray(myArray);
 
 
 //Задача 3. Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
