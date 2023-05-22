@@ -2,5 +2,5 @@
 ## [Домашняя работа 27.04.2023](/homeWork2/Program.cs)
 ## [Домашняя работа 29.04.2023](/homeWork3/Program.cs)
 ## [Домашняя работа 18.05.2023](/homeWork4/Program.cs)
-
+## [Домашняя работа 22.05.2023](/homeWork5/Program.cs)
 
