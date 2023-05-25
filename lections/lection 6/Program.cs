@@ -1,12 +1,12 @@
-﻿void Towers(string  with = "1", string on = "3", string some = "2", int count = 3)
-{
+﻿// void Towers(string  with = "1", string on = "3", string some = "2", int count = 3)
+// {
 
-    if( count>1) Towers(with,some,on, count -1);
-    Console.WriteLine($"{with}>>{on}");
-    if(count>1) Towers(some,on,with, count-1);
-    Console.WriteLine();
-}
-Towers();
+//     if( count>1) Towers(with,some,on, count -1);
+//     Console.WriteLine($"{with}>>{on}");
+//     if(count>1) Towers(some,on,with, count-1);
+//     Console.WriteLine();
+// }
+// Towers();
 
 // DataTime dt = DateTime.Now;
 // decimal fRec = 0;
@@ -21,3 +21,4 @@ Towers();
 //     fRec=0;
 // }
 // System.Console.WriteLine((DateTime.Now-dt).TotalMilliseconds);
+
