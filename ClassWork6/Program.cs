@@ -59,11 +59,7 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
 //         array[i]= array[i-1]+array[i-2]; 
 //         fib++;
 //     }
-//     return array;
-// }
-
-// PrintArray(Fibonachi(UserInput("Введите size: "),UserInput("Введите first: "),UserInput("Введите second: ")));
-// System.Console.WriteLine(fib);
+//     returnAQQAQA!!!!QAQAAAAAAAA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!QAQAAA1onsole.WriteLine(fib);
 
 
 
@@ -72,6 +68,25 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
 
 //[1 2 3 4 5] -> [5 4 3 2 1]
 //[6 7 3 6] -> [6 3 7 6]
+
+// int [] ReplaceArray(int [] array)
+// {
+//     int replace= 0;
+//     for (int i = 0; i < array.Length-1-i; i++)
+//     {
+//         replace= array[i];
+//         array[i]= array[array.Length-i-1];
+//         array[array.Length-i-1]= replace;
+//     }
+//     return array;
+// }
+// int size = UserInput("Введите количество элементов: ");
+// int minValue= UserInput("Введите минимальное значение: ");
+// int maxValue= UserInput("Введите максимальное значение: ");
+// int [] array = CreateRandomArray(size, minValue,maxValue);
+// PrintArray(array);
+// int[] newArray = ReplaceArray(array);
+// PrintArray(newArray);
 
 // int [] ReplaceArray(int [] array)
 // {
