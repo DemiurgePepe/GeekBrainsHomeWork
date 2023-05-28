@@ -20,13 +20,13 @@
 //     Console.WriteLine();
 // }
 
-int UserInput(string message)
-{
-    System.Console.Write(message);
-    string value = Console.ReadLine();
-    int result = Convert.ToInt32(value);
-    return result;
-}
+// int UserInput(string message)
+// {
+//     System.Console.Write(message);
+//     string value = Console.ReadLine();
+//     int result = Convert.ToInt32(value);
+//     return result;
+// }
 
 // void CheckEvenOrOdd(int[] array)
 // {
@@ -88,3 +88,21 @@ int UserInput(string message)
 // double [] newArray = CreateRandomArrayDouble(size, minValue,maxValue);
 // PrintArrayDouble(newArray);
 // DifferenceNumbers(newArray);
+
+
+
+// int[] CreateRandomArray(int size, int minValue, int maxValue)
+// {
+//     int[] newArray = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         newArray[i] = new Random().Next(minValue, maxValue + 1);
+//     }
+//     return newArray;
+// }
+// int size = UserInput("Введите количество элементов: ");
+// int minValue= UserInput("Введите минимальное значение: ");
+// int maxValue= UserInput("Введите максимальное значение: ");
+// int [] newArray = CreateRandomArrayDouble(size, minValue,maxValue);
+
+// PrintArray(newArray);
