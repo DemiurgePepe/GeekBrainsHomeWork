@@ -1,4 +1,40 @@
-﻿// Знакомство с языками программирования (семинары)
+﻿int UserInput(string message)
+{
+    System.Console.Write(message);
+    string value = Console.ReadLine();
+    int result = Convert.ToInt32(value);
+    return result;
+}
+
+int [,] Create2DRandomArray(int rows, int columns, int minValue, int maxValue)
+{
+    int [,] array = new int[rows,columns];
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < columns; j++)
+        {
+            array[i,j] = new Random().Next(minValue,maxValue);
+        }
+    }
+    return array;
+}
+
+void Print2DArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        System.Console.WriteLine();
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i,j]+" ");
+        }
+    }
+}   
+
+
+
+
+// Знакомство с языками программирования (семинары)
 // Урок 8. Двумерные массивы. Продолжение
 // Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 // Например, задан массив:
@@ -9,6 +45,35 @@
 // 7 4 2 1
 // 9 5 3 2
 // 8 4 4 2
+int[,] Sort2DArray(int[,] array)
+{
+    int temp;
+    int min=0;
+    int max=0;
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 1; j < array.GetLength(1); j++)
+        {
+            if(array[i,j]<array[i,array.GetLength(1)-1])
+            {
+                temp= array[i,j];
+                array[i,j]=array[i,array.GetLength(1)-1];
+                temp=array[i,j];
+            }
+        }
+    }
+    return array;
+}
+int rows = UserInput("Введите строки: ");
+int columns = UserInput("Введите столбцы: ");
+int minValue = UserInput("Введите минимальное значение: ");
+int maxValue = UserInput("Введите максимальное значение: ");
+int[,] myArray = Create2DRandomArray(rows,columns,minValue,maxValue);
+Print2DArray(myArray);
+
+int [,] newArray=Sort2DArray(myArray);
+System.Console.WriteLine();
+Print2DArray(newArray);
 
 // Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
