@@ -1,19 +1,19 @@
 ﻿//Задача 4. задайте двумерный массив. Найдите сумму элементов, находящихся на главной диагона
 // задайте 2мерный массив размером mxn
 
-// int SumElementsMainDiagonal(int[,] array)
-// {
-//     int sum = 0;
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             if(i==j) sum+=array[i,j];
-//         }
-//     }
-//     System.Console.WriteLine();
-//     return sum;
-// }
+int SumElementsMainDiagonal(int[,] array)
+{
+    int sum = 0;
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            if(i==j) sum+=array[i,j];
+        }
+    }
+    System.Console.WriteLine();
+    return sum;
+}
 
 int UserInput(string message)
 {
