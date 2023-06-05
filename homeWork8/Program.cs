@@ -273,81 +273,32 @@ void Print2DArray(int[,] array)
 // 10 09 08 07
 
 
+
 // int [,] Create2DRandomArray(int rows, int columns)
 // {
 //     int [,] array = new int[rows,columns];
-//     int temp=0;
-//     for (int i = 0; i < rows; i++)
+//     int temp=1;
+//     int i=0;
+//     int j=0;
+//     while (temp <= array.GetLength(0) * array.GetLength(1))
 //     {
-//         for (int j = 0; j < columns; j++)
-//         {
-//             if(i==0)
-//             {
-//                 for (int n = 0; n < array.GetLength(1); n++)
-//                 {
-//                     for (int e = 1; e < 5; e++)
-//                     {
-//                         array[i,n]=e;
-//                     }
-//                 }
-                
-//             }
-//             if(j==4)
-//             {
-//                 for (int z = 1; z < array.GetLength(0); z++)
-//                 {
-//                     for (int x = 1; x < array.GetLength(1); x++)
-//                     {
-//                         temp=5;
-//                         array[z,x]=temp++;
-//                     } 
-//                 }
-               
-//             }
-//             if(i==3)
-//             {
-//                 for (int h = 0; h < array.GetLength(1); h++)
-//                 {
-//                     temp=10;
-//                     array[i,h]=temp--;
-//                 } 
-//             } 
-            
-//             if (i==1)
-//             {
-//                 for (int o = 1; o < array.GetLength(0); o++)
-//                 {
-//                     for (int v = 0; v < array.GetLength(1)-2; v++)
-//                     {
-//                         temp= 12;
-//                         array[o,v]=temp++;
-//                     }
-//                 }
-                
-//             }
-            
-//             if (i==2)
-//             {
-//                 for (int p = 1; p < array.GetLength(0); p++)
-//                 {
-//                     for (int t = 0; t < array.GetLength(1)-2; t++)
-//                     {
-//                         temp=16;
-//                         array[p,t]=temp--;
-//                     }
-//                 }
-                
-//             }
-            
-//         } 
-        
+//     array[i, j] = temp;
+//     temp++;
+//     if (i <= j + 1 && i + j < array.GetLength(1) - 1)
+//         j++;
+//     else if (i < j && i + j >= array.GetLength(0) - 1)
+//         i++;
+//     else if (i >= j && i + j > array.GetLength(1) - 1)
+//         j--;
+//     else
+//         i--;
 //     }
 //     return array;
 // }
-   
 
 
-int rows = UserInput("Введите строки: ");
-int columns = UserInput("Введите столбцы: ");
-int[,] myArray = Create2DRandomArray(rows,columns);
-Print2DArray(myArray);
+
+// int rows = UserInput("Введите строки: ");
+// int columns = UserInput("Введите столбцы: ");
+// int[,] myArray = Create2DRandomArray(rows,columns);
+// Print2DArray(myArray);
