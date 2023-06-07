@@ -6,3 +6,4 @@
 ## [Домашняя работа 26.05.2023](/homeWork6/Program.cs)
 ## [Домашняя работа 30.05.2023](/homeWork7/Program.cs)
 ## [Домашняя работа 05.06.2023](/homeWork8/Program.cs)
+## [Домашняя работа 07.06.2023](/homeWork9/Program.cs)
